@@ -1,0 +1,12 @@
+.offer-price {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 25px;
+  font-family: YekanBakh, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  text-decoration-line: line-through;
+  color: #c0c2c5;
+  height: 26.038px;
+}

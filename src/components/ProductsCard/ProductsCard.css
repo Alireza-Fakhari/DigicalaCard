@@ -1,0 +1,169 @@
+@font-face {
+  font-family: YekanBakh;
+  src: url(./font/YekanBakhFaNumRegular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url(./font/YekanBakhFaNumMedium.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url(./font/YekanBakhFaNumBold.woff);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url(./font/YekanBakhFaNumHeavy.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.all-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  color: #21201e;
+  text-align: center;
+  width: 280px;
+  height: auto;
+  padding: 12px 10px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #a2a2aa;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px !important;
+  padding-top: 4px;
+  margin: 0;
+}
+
+.justify-space {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.product .product-title,
+.product .product-price {
+  font-size: 0.75rem;
+  font-family: YekanBakh, sans-serif;
+}
+
+.price-hieght {
+  height: 26.038px;
+}
+
+.send-hieght {
+  height: 28.8px;
+  margin-bottom: 4px;
+}
+
+.product-title {
+  line-height: 26.04px;
+  margin: 0;
+  height: 52px;
+  font-size: 14px !important;
+  font-weight: 500;
+  text-align: right;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product:hover img {
+  scale: 1.1;
+}
+
+.product:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+  border-radius: 0.6rem;
+  height: 200px;
+  margin: 1rem;
+  transition: all 0.3s;
+}
+
+.toman {
+  width: 15px;
+  height: 15px !important;
+  margin: 0 10px 0 0 !important;
+}
+
+.not-valid {
+  color: #a1a3a8;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.product a:link,
+.product a:visited {
+  color: #ececec;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ed1844;
+  padding: 1rem 3rem 1.2rem 3rem;
+  border-radius: 1rem;
+  margin: 1rem 0 1rem 0;
+  font-family: YekanBakh;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.product a:hover {
+  transform: scale(1.1);
+}
+
+.send-p {
+  display: flex;
+  width: 100%;
+  height: 28.8px;
+}
+
+.product-info {
+  width: 100%;
+}
+
+.tomorrow-hieght {
+  height: 26.038px;
+  margin-bottom: 4px;
+}
+
+.free-star {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 25.875px;
+  font-size: 13px;
+  font-family: YekanBakh, sans-serif;
+  font-weight: 600;
+}
